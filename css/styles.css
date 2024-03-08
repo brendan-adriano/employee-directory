@@ -20,21 +20,16 @@ header h1 {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, .5fr);
-    /* grid-template-rows: repeat(4, 1fr); */
     grid-gap: 2em;
-    /* margin: 1em 1em 1em 0em;
-    padding: 4em 3em 1em 3em; */
     place-content: center;
   
     
 }
 
 .card {
-    /* grid-area: card; */
     display: flex;
     background-color: white;
     border: 1px solid lightgray;
-    /* width: 1em; */
     min-height: 1em;
     border-radius: 5px;
     flex-direction: row;
