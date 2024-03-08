@@ -40,6 +40,11 @@ header h1 {
     max-width: 22em;
 }
 
+.card:hover {
+    cursor: pointer;
+    border-color: green;
+}
+
 .card img {
     height: 6em;
 }
